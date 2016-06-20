@@ -3,8 +3,41 @@ $background2:blue;
 
 $semibold:600;
 $regular:400;
+$light:300;
 $bold:700;
 $italic:400italic;
 
 $body-font:'Titillium Web', sans-serif;
 
+$body-font-color:#ffffff;
+$hover-color:#30bae7;
+$service-color:#17c2a4;
+$get-in-touch-color:#344b8e;
+
+
+
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex-justify($values) {
+	-webkit-box-pack: $values;
+		-moz-box-pack: $values;
+		-ms-flex-pack: $values;
+		-webkit-justify-content: $values;
+		justify-content:$values;
+}
+
+@mixin flex-align($values) {
+	
+	-webkit-box-align: $values;
+	-moz-box-align: $values;/* OLD… */
+	-ms-flex-align: $values; /* You know the drill now… */
+	-webkit-align-items: $values;
+	align-items: $values;
+}
