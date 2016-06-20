@@ -167,7 +167,7 @@ p {
 	}
 }
 
-/**** People Say ****/
+/**** Team Say ****/
 #team{
 	color:$body-font-color2;
 	min-height:910px;
@@ -215,6 +215,66 @@ p {
 			img {
 				width:100%;
 				height:100%;
+			}
+		}
+	}
+}
+
+/**** Portfolio Section ****/
+#portfolio{
+	color:$body-font-color2;
+	background-color:$portfolio-color;
+	min-height:1428px;
+	
+	@include flexbox();
+	@include flex-justify(center);
+	@include flex-align(center);
+
+	.title {
+		text-align:center;
+		margin-bottom:86px;
+		h1 {
+			margin-bottom:50px;
+		}
+		ul.select {
+			list-style:none;
+			margin-top:50px;
+
+			li {
+				display:inline;
+				padding-right:14px;
+				a {
+					background-color:$portfolio-select-color;
+					padding:14px 30px;
+					border-radius:6px;
+					font-size:18px;
+					text-transform:uppercase;
+					text-decoration:none;
+					color:$body-font-color2;
+				}
+				a:hover {
+					background-color:$portfolio-hover-color;
+				}
+			}
+		}
+	}
+
+
+	.portfolio-wrap {
+		margin-bottom:75px;
+
+		.portfolio-text {
+			text-align:center;
+			margin-top:40px;
+			text-transform:uppercase;
+		}
+
+		.portfolio-pic {
+			
+			
+			img {
+				width:100%;
+				
 			}
 		}
 	}

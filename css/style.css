@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@fa-font-path :   "../font";
 /* line 3, ../scss/style.scss */
 body {
   font-family: "Titillium Web", sans-serif;
@@ -203,7 +202,7 @@ p {
   height: 100%;
 }
 
-/**** People Say ****/
+/**** Team Say ****/
 /* line 171, ../scss/style.scss */
 #team {
   color: #3c4761;
@@ -266,12 +265,84 @@ p {
   height: 100%;
 }
 
+/**** Portfolio Section ****/
+/* line 224, ../scss/style.scss */
+#portfolio {
+  color: #3c4761;
+  background-color: #ffdd99;
+  min-height: 1428px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  /* OLD… */
+  -ms-flex-align: center;
+  /* You know the drill now… */
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 233, ../scss/style.scss */
+#portfolio .title {
+  text-align: center;
+  margin-bottom: 86px;
+}
+/* line 236, ../scss/style.scss */
+#portfolio .title h1 {
+  margin-bottom: 50px;
+}
+/* line 239, ../scss/style.scss */
+#portfolio .title ul.select {
+  list-style: none;
+  margin-top: 50px;
+}
+/* line 243, ../scss/style.scss */
+#portfolio .title ul.select li {
+  display: inline;
+  padding-right: 14px;
+}
+/* line 246, ../scss/style.scss */
+#portfolio .title ul.select li a {
+  background-color: #ebc985;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3c4761;
+}
+/* line 255, ../scss/style.scss */
+#portfolio .title ul.select li a:hover {
+  background-color: #ffffff;
+}
+/* line 263, ../scss/style.scss */
+#portfolio .portfolio-wrap {
+  margin-bottom: 75px;
+}
+/* line 266, ../scss/style.scss */
+#portfolio .portfolio-wrap .portfolio-text {
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+/* line 275, ../scss/style.scss */
+#portfolio .portfolio-wrap .portfolio-pic img {
+  width: 100%;
+}
+
 /**** Social Media ****/
-/* line 226, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 #social-media {
   background-color: #344b8e;
 }
-/* line 229, ../scss/style.scss */
+/* line 289, ../scss/style.scss */
 #social-media .get-wrapper {
   min-height: 110px;
   display: -webkit-box;
@@ -293,13 +364,13 @@ p {
   align-items: center;
   flex-flow: row wrap;
 }
-/* line 236, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 #social-media .get-wrapper a {
   color: white;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 241, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 #social-media .get-wrapper a:hover {
   color: #30bae7;
 }
