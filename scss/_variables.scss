@@ -5,16 +5,21 @@ $semibold:600;
 $regular:400;
 $light:300;
 $bold:700;
-$italic:400italic;
+$italic:400;
 
 $body-font:'Titillium Web', sans-serif;
 
 $body-font-color:#ffffff;
+$body-font-color2:#3c4761;
 $hover-color:#30bae7;
 $service-color:#17c2a4;
 $get-in-touch-color:#344b8e;
+$people-color:#d74680;
+$accent-color:#ffdd99;
+$accent-color2:#30bae7;
 
 
+@fa-font-path:   "../font";
 
 
 @mixin flexbox() {
