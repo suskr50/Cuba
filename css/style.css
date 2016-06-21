@@ -13,25 +13,81 @@ h1 {
   font-weight: 700;
 }
 
-/* line 16, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 h3 {
   font-size: 24px;
   font-weight: 700;
 }
 
-/* line 22, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 p {
   font-size: 16px;
   font-weight: 300;
 }
 
-/**** Welcome Section ****/
-/* line 34, ../scss/style.scss */
+/**** Header Section ****/
+/* line 36, ../scss/style.scss */
+header {
+  background-color: #87509c;
+}
+/* line 42, ../scss/style.scss */
+header .navbar-default {
+  margin-top: -50px;
+  margin-bottom: 140px;
+  padding-top: 60px;
+  border: none;
+  background-color: #87509c;
+  min-height: 100px;
+}
+/* line 50, ../scss/style.scss */
+header .navbar-default .navbar-nav {
+  color: #ffffff;
+}
+/* line 52, ../scss/style.scss */
+header .navbar-default .navbar-nav li {
+  padding-top: 20px;
+}
+/* line 54, ../scss/style.scss */
+header .navbar-default .navbar-nav li a {
+  font-size: 16px;
+  color: #ffffff;
+}
+/* line 60, ../scss/style.scss */
+header .navbar-default .navbar-nav li.active a {
+  background-color: #643a79;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+/* line 71, ../scss/style.scss */
+header .header-text {
+  text-align: center;
+  min-height: 400px;
+}
+/* line 74, ../scss/style.scss */
+header .header-text h1 {
+  margin-bottom: 70px;
+}
+/* line 78, ../scss/style.scss */
+header .header-text a {
+  color: #ffffff;
+  font-color: 18px;
+  padding: 15px 90px;
+  border-radius: 6px;
+  background-color: #eb7d4b;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/**** Service Section ****/
+/* line 94, ../scss/style.scss */
 #service {
   background-color: #17c2a4;
   min-height: 750px;
@@ -53,33 +109,33 @@ p {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 42, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 #service .title {
   text-align: center;
   padding-bottom: 86px;
 }
-/* line 45, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 #service .title h1 {
   margin-bottom: 60px;
 }
-/* line 51, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 #service .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 54, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 #service .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 59, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 #service .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** Skills ****/
-/* line 72, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 #skills {
   color: #3c4761;
   min-height: 750px;
@@ -101,33 +157,33 @@ p {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 80, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 #skills .title {
   text-align: center;
   padding-bottom: 86px;
 }
-/* line 83, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
 #skills .title h1 {
   margin-bottom: 60px;
 }
-/* line 89, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 #skills .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 92, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 #skills .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 97, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 #skills .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** People Say ****/
-/* line 109, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 #people-say {
   background-color: #d74680;
   min-height: 900px;
@@ -149,45 +205,45 @@ p {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 117, ../scss/style.scss */
+/* line 177, ../scss/style.scss */
 #people-say .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 120, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 #people-say .title h1 {
   margin-bottom: 50px;
 }
-/* line 126, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 #people-say .people-wrap {
   margin-bottom: 150px;
 }
-/* line 129, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 #people-say .people-wrap .people-text {
   padding: 0 50px;
   text-align: left;
   width: 80%;
   float: left;
 }
-/* line 135, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 #people-say .people-wrap .people-text p {
   font-weight: 400;
   font-style: italic;
 }
-/* line 139, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 #people-say .people-wrap .people-text h3 {
   text-transform: uppercase;
 }
-/* line 143, ../scss/style.scss */
+/* line 203, ../scss/style.scss */
 #people-say .people-wrap .people-text h4 {
   color: #ffdd99;
 }
-/* line 148, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 #people-say .people-wrap .people-text:nth-child(1),
 #people-say .people-wrap .people-text:nth-child(2) {
   margin-bottom: 150px;
 }
-/* line 153, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 #people-say .people-wrap .people-pic {
   background-color: green;
   height: 100px;
@@ -196,14 +252,14 @@ p {
   margin-bottom: 65px;
   float: left;
 }
-/* line 162, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 #people-say .people-wrap .people-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Team Say ****/
-/* line 171, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
 #team {
   color: #3c4761;
   min-height: 910px;
@@ -225,32 +281,32 @@ p {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 179, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 #team .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 182, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 #team .title h1 {
   margin-bottom: 50px;
 }
-/* line 188, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 #team .team-wrap {
   margin-bottom: 150px;
 }
-/* line 191, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 #team .team-wrap .team-text {
   text-align: center;
 }
-/* line 194, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 #team .team-wrap .team-text #place {
   color: #30bae7;
 }
-/* line 198, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 #team .team-wrap .team-text h3 {
   text-transform: uppercase;
 }
-/* line 207, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 #team .team-wrap .team-pic {
   background-color: green;
   height: 200px;
@@ -259,14 +315,14 @@ p {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-/* line 215, ../scss/style.scss */
+/* line 275, ../scss/style.scss */
 #team .team-wrap .team-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Portfolio Section ****/
-/* line 224, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 #portfolio {
   color: #3c4761;
   background-color: #ffdd99;
@@ -289,26 +345,26 @@ p {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 233, ../scss/style.scss */
+/* line 293, ../scss/style.scss */
 #portfolio .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 236, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 #portfolio .title h1 {
   margin-bottom: 50px;
 }
-/* line 239, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 #portfolio .title ul.select {
   list-style: none;
   margin-top: 50px;
 }
-/* line 243, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 #portfolio .title ul.select li {
   display: inline;
   padding-right: 14px;
 }
-/* line 246, ../scss/style.scss */
+/* line 306, ../scss/style.scss */
 #portfolio .title ul.select li a {
   background-color: #ebc985;
   padding: 14px 30px;
@@ -318,31 +374,31 @@ p {
   text-decoration: none;
   color: #3c4761;
 }
-/* line 255, ../scss/style.scss */
+/* line 315, ../scss/style.scss */
 #portfolio .title ul.select li a:hover {
   background-color: #ffffff;
 }
-/* line 263, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 #portfolio .portfolio-wrap {
   margin-bottom: 75px;
 }
-/* line 266, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-text {
   text-align: center;
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 275, ../scss/style.scss */
+/* line 335, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-pic img {
   width: 100%;
 }
 
 /**** Social Media ****/
-/* line 286, ../scss/style.scss */
+/* line 346, ../scss/style.scss */
 #social-media {
   background-color: #344b8e;
 }
-/* line 289, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 #social-media .get-wrapper {
   min-height: 110px;
   display: -webkit-box;
@@ -364,13 +420,13 @@ p {
   align-items: center;
   flex-flow: row wrap;
 }
-/* line 296, ../scss/style.scss */
+/* line 356, ../scss/style.scss */
 #social-media .get-wrapper a {
   color: white;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 301, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 #social-media .get-wrapper a:hover {
   color: #30bae7;
 }

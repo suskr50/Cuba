@@ -13,6 +13,8 @@ h1 {
 	font-weight:$bold;
 }
 
+
+
 h3 {
 	font-size:24px;
 	
@@ -29,7 +31,65 @@ p {
 	font-weight:$light;
 }
 
-/**** Welcome Section ****/
+/**** Header Section ****/
+
+header {
+	background-color:$welcome-color;
+	
+	
+
+
+	.navbar-default {
+		margin-top:-50px;
+		margin-bottom:140px;
+		padding-top:60px;
+		border:none;
+		background-color:$welcome-color;
+		min-height:100px;
+		
+		.navbar-nav{
+			color:$body-font-color;
+			li {
+				padding-top:20px;
+				a {
+					font-size:16px;
+					color:$body-font-color;
+				}
+			}
+			li.active {
+				a {
+					background-color:$nav-hover-color;
+					padding:10px 20px;
+					margin-top:5px;
+					border-radius:3px;
+					color:$body-font-color;
+				}
+				
+			}
+		}
+	}
+	.header-text {
+		text-align:center;
+		min-height:400px;
+		h1 {
+			margin-bottom:70px;
+		}
+
+		a {
+			color:$body-font-color;
+			font-color:18px;
+			padding:15px 90px;
+			border-radius:6px;
+			background-color:$welcome-button-color;
+			text-align:center;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+
+	}
+}
+
+/**** Service Section ****/
 
 #service{
 	background-color:$service-color;
