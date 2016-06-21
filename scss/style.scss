@@ -35,8 +35,6 @@ hr {
 	width:90px;
 }
 
-
-
 /***** Global ****/
 
 .title {
@@ -171,9 +169,9 @@ header {
 
 
 		.people-text {
-			padding:0 50px;
+			padding-left:15px;
 			text-align:left;
-			width:80%;
+			width:70%;
 			float:left;
 
 			p {
@@ -191,13 +189,13 @@ header {
 
 		.people-text:nth-child(1),
 		.people-text:nth-child(2) {
-			margin-bottom:150px;
+			margin-bottom:50px;
 		}
 
 		.people-pic {
 			background-color:green;
-			height:100px;
-			width:100px;
+			height:75px;
+			width:75px;
 			border-radius:50px;			;
 			margin-bottom:65px;
 			float:left;
@@ -277,11 +275,10 @@ header {
 	.select {
 		margin-bottom:50px;
 
-		ul {
+	ul {
 			list-style:none;
 			width:90%;
-		
-			margin:0 auto 100px auto;
+			margin:0 auto 70px auto;
 			
 			li {
 				display:inline;
@@ -302,6 +299,7 @@ header {
 		}
 	}
 	
+
 
 	.portfolio-wrap {
 		margin-bottom:75px;
@@ -328,7 +326,7 @@ header {
 #get-in-touch{
 	color:$body-font-color;
 	background-color:$get-color;
-	min-height:700px;
+	min-height:900px;
 	
 	@include flexbox();
 	@include flex-justify(center);
@@ -362,17 +360,14 @@ header {
 	}
 }
 
-	#email {
-		width:48%;
-		float:right;
-		margin-bottom:10px;
-	}
-
-	#name
-	 {
-		width:48%;
-		float:left;
-	}
+	#name,
+		#email {
+			width:100%;
+			float:clear;
+			margin-bottom:20px;
+			height:75px;
+			font-size:20px;
+		}
 
 
 
