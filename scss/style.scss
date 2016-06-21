@@ -3,36 +3,45 @@
 body {
 	font-family:$body-font;
 	font-weight:$regular;
-	font-size:18px;
+	font-size: 62.5%;
 	color:$body-font-color;
 	}
 
 h1 {
 	font-size:40px;
-	
+	font-size:4.0rem;
 	font-weight:$bold;
 }
 
-
-
 h3 {
 	font-size:24px;
-	
+	font-size:2.4rem;
 	font-weight:$bold;
 }
 
 h4 {
 	font-size:18px;
+	font-size:1.8rem;
 }
 
 p {
 	font-size:16px;
-	
+	font-size:1.6rem;
 	font-weight:$light;
 }
 
+a {
+	font-size:18px;
+	font-size:1.8rem;
+	text-decoration:none;
+}
 hr {
 	width:90px;
+}
+
+.fa-lg {
+	font-size:16px;
+	font-size:1.6rem;
 }
 
 /***** Global ****/
@@ -60,7 +69,6 @@ header {
 			li {
 				padding-top:20px;
 				a {
-					font-size:16px;
 					color:$body-font-color;
 				}
 			}
@@ -89,12 +97,12 @@ header {
 
 		a {
 			color:$body-font-color;
-			font-color:18px;
+			
 			padding:15px 90px;
 			border-radius:6px;
 			background-color:$welcome-button-color;
 			text-align:center;
-			text-decoration:none;
+			
 			text-transform:uppercase;
 		}
 
@@ -241,10 +249,13 @@ header {
 				text-transform:uppercase;
 			}
 			span {
-				margin-top:40px;
+				margin-top:20px;
 				color:$social-color;
 				padding-right:10px;
 				
+			}
+			#desc {
+				min-height:50px;
 			}
 
 		}
@@ -294,9 +305,9 @@ header {
 					background-color:$portfolio-select-color;
 					padding:14px 30px;
 					border-radius:6px;
-					font-size:18px;
+					
 					text-transform:uppercase;
-					text-decoration:none;
+					
 					color:$body-font-color2;
 				}
 				a:hover {
@@ -374,6 +385,7 @@ header {
 			margin-bottom:20px;
 			height:75px;
 			font-size:20px;
+			font-size:2.0rem;
 		}
 
 

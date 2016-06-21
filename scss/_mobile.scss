@@ -28,6 +28,7 @@
 	}
 
 	#team {
+	background-color:yellow;
 
 		.team-wrap {
 			margin-bottom:50px;
@@ -206,9 +207,7 @@ header {
 					background-color:$portfolio-select-color;
 					padding:14px 30px;
 					border-radius:6px;
-					font-size:18px;
 					text-transform:uppercase;
-					text-decoration:none;
 					color:$body-font-color2;
 				}
 				a:hover {
