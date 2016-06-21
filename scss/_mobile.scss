@@ -1,1 +1,114 @@
-_mobile.scss
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	header {
+		background-color:$welcome-color;
+
+		.navbar-default {
+			margin-bottom:75px;
+		}
+	}
+	#service {
+		padding-top:50px;
+		.service-wrap {
+			margin-bottom:50px;
+		}
+	}
+
+	#team {
+
+		.team-wrap {
+			margin-bottom:50px;
+		}
+	}
+
+	#skills {
+		margin-top:50px;
+		.service-wrap {
+			margin-bottom:70px;
+		}
+
+	}
+
+	#portfolio {
+		min-height:1100px;
+	}
+
+	#people-say {
+
+		.people-wrap {
+			text-align:center;
+			margin-bottom:0;
+			padding-bottom:0;
+
+			.people-pic {
+				float:left;
+				width:100px;
+				margin-right:30px;
+				margin-bottom:100px;
+
+			}
+			.people-text {
+				float:none;
+				width:100%;
+			}
+			.people-text:nth-child(1),
+			.people-text:nth-child(2) {
+				margin-bottom:100px;
+			}
+		}
+	}
+
+	#get-in-touch {
+		min-height:800px;
+		#name,
+		#email {
+			width:100%;
+			float:clear;
+			margin-bottom:20px;
+			height:75px;
+			font-size:20px;
+		}
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 922px) { 
+
+	#service {
+		
+		.service-wrap {
+			h3 {
+				margin-bottom:50px;
+				text-transform:uppercase;
+			}
+			#rocket {
+				margin-bottom:25px;
+			}
+		}
+	}
+
+	#team {
+		h3 {
+			margin-bottom:50px;
+		}
+		#ashley {
+			margin-bottom:25px;
+		}
+		.team-text {
+			#desc {
+			min-height:160px;
+		}
+		}
+	}
+
+	#portfolio {
+		min-height:1300px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {  }

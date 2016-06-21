@@ -33,17 +33,21 @@ p {
 
 hr {
 	width:90px;
+}
 
 
+
+/***** Global ****/
+
+.title {
+		text-align:center;
+		margin-bottom:86px;
 }
 
 /**** Header Section ****/
 
 header {
 	background-color:$welcome-color;
-	
-	
-
 
 	.navbar-default {
 		margin-top:-50px;
@@ -105,15 +109,6 @@ header {
 	@include flex-justify(center);
 	@include flex-align(center);
 
-	.title {
-		text-align:center;
-		padding-bottom:86px;
-		h1 {
-			margin-bottom:40px;
-		}
-	}
-	
-
 	.service-wrap {
 		text-align:center;
 		padding:0 30px;
@@ -143,15 +138,6 @@ header {
 	@include flex-justify(center);
 	@include flex-align(center);
 
-	.title {
-		text-align:center;
-		padding-bottom:86px;
-		h1 {
-			margin-bottom:60px;
-		}
-	}
-	
-
 	.service-wrap {
 		text-align:center;
 		padding:0 30px;
@@ -180,18 +166,9 @@ header {
 	@include flex-justify(center);
 	@include flex-align(center);
 
-	.title {
-		text-align:center;
-		margin-bottom:86px;
-		h1 {
-			margin-bottom:50px;
-		}
-	}
-
-
 	.people-wrap {
 		margin-bottom:150px;
-		
+
 
 		.people-text {
 			padding:0 50px;
@@ -243,14 +220,6 @@ header {
 	@include flexbox();
 	@include flex-justify(center);
 	@include flex-align(center);
-
-	.title {
-		text-align:center;
-		margin-bottom:86px;
-		h1 {
-			margin-bottom:50px;
-		}
-	}
 
 
 	.team-wrap {
@@ -304,19 +273,19 @@ header {
 	@include flex-justify(center);
 	@include flex-align(center);
 
-	.title {
-		text-align:center;
-		margin-bottom:86px;
-		h1 {
-			margin-bottom:50px;
-		}
-		ul.select {
-			list-style:none;
-			margin-top:50px;
+	
+	.select {
+		margin-bottom:50px;
 
+		ul {
+			list-style:none;
+			width:90%;
+		
+			margin:0 auto 100px auto;
+			
 			li {
 				display:inline;
-				padding-right:14px;
+				padding:0 10px;
 				a {
 					background-color:$portfolio-select-color;
 					padding:14px 30px;
@@ -332,7 +301,7 @@ header {
 			}
 		}
 	}
-
+	
 
 	.portfolio-wrap {
 		margin-bottom:75px;
@@ -365,13 +334,7 @@ header {
 	@include flex-justify(center);
 	@include flex-align(center);
 
-	.title {
-		text-align:center;
-		margin-bottom:86px;
-		h1 {
-			margin-bottom:50px;
-		}
-	}
+	
 	.input-group {
 		
 		width:100%;
@@ -441,4 +404,6 @@ header {
 	}
 }
 
+
+@import 'mobile';
 
