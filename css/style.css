@@ -30,12 +30,17 @@ p {
   font-weight: 300;
 }
 
+/* line 34, ../scss/style.scss */
+hr {
+  width: 90px;
+}
+
 /**** Header Section ****/
-/* line 36, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 header {
   background-color: #87509c;
 }
-/* line 42, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 header .navbar-default {
   margin-top: -50px;
   margin-bottom: 140px;
@@ -44,20 +49,20 @@ header .navbar-default {
   background-color: #87509c;
   min-height: 100px;
 }
-/* line 50, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 header .navbar-default .navbar-nav {
   color: #ffffff;
 }
-/* line 52, ../scss/style.scss */
+/* line 58, ../scss/style.scss */
 header .navbar-default .navbar-nav li {
   padding-top: 20px;
 }
-/* line 54, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 header .navbar-default .navbar-nav li a {
   font-size: 16px;
   color: #ffffff;
 }
-/* line 60, ../scss/style.scss */
+/* line 66, ../scss/style.scss */
 header .navbar-default .navbar-nav li.active a {
   background-color: #643a79;
   padding: 10px 20px;
@@ -65,16 +70,16 @@ header .navbar-default .navbar-nav li.active a {
   border-radius: 3px;
   color: #ffffff;
 }
-/* line 71, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 header .header-text {
   text-align: center;
   min-height: 400px;
 }
-/* line 74, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 header .header-text h1 {
   margin-bottom: 70px;
 }
-/* line 78, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 header .header-text a {
   color: #ffffff;
   font-color: 18px;
@@ -87,7 +92,7 @@ header .header-text a {
 }
 
 /**** Service Section ****/
-/* line 94, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 #service {
   background-color: #17c2a4;
   min-height: 750px;
@@ -109,33 +114,33 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 102, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 #service .title {
   text-align: center;
   padding-bottom: 86px;
 }
-/* line 105, ../scss/style.scss */
-#service .title h1 {
-  margin-bottom: 60px;
-}
 /* line 111, ../scss/style.scss */
+#service .title h1 {
+  margin-bottom: 40px;
+}
+/* line 117, ../scss/style.scss */
 #service .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 114, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 #service .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 119, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 #service .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** Skills ****/
-/* line 132, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 #skills {
   color: #3c4761;
   min-height: 750px;
@@ -157,33 +162,33 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 140, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 #skills .title {
   text-align: center;
   padding-bottom: 86px;
 }
-/* line 143, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 #skills .title h1 {
   margin-bottom: 60px;
 }
-/* line 149, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 #skills .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 152, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 #skills .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 157, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #skills .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** People Say ****/
-/* line 169, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 #people-say {
   background-color: #d74680;
   min-height: 900px;
@@ -205,45 +210,45 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 177, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 #people-say .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 180, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 #people-say .title h1 {
   margin-bottom: 50px;
 }
-/* line 186, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 #people-say .people-wrap {
   margin-bottom: 150px;
 }
-/* line 189, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 #people-say .people-wrap .people-text {
   padding: 0 50px;
   text-align: left;
   width: 80%;
   float: left;
 }
-/* line 195, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 #people-say .people-wrap .people-text p {
   font-weight: 400;
   font-style: italic;
 }
-/* line 199, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 #people-say .people-wrap .people-text h3 {
   text-transform: uppercase;
 }
-/* line 203, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 #people-say .people-wrap .people-text h4 {
   color: #ffdd99;
 }
-/* line 208, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 #people-say .people-wrap .people-text:nth-child(1),
 #people-say .people-wrap .people-text:nth-child(2) {
   margin-bottom: 150px;
 }
-/* line 213, ../scss/style.scss */
+/* line 220, ../scss/style.scss */
 #people-say .people-wrap .people-pic {
   background-color: green;
   height: 100px;
@@ -252,14 +257,14 @@ header .header-text a {
   margin-bottom: 65px;
   float: left;
 }
-/* line 222, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 #people-say .people-wrap .people-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Team Say ****/
-/* line 231, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 #team {
   color: #3c4761;
   background-color: #e7f1f8;
@@ -282,35 +287,35 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 240, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 #team .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 243, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 #team .title h1 {
   margin-bottom: 50px;
 }
-/* line 252, ../scss/style.scss */
+/* line 259, ../scss/style.scss */
 #team .team-wrap .team-text {
   text-align: center;
   padding: 0 25px;
 }
-/* line 256, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 #team .team-wrap .team-text #place {
   color: #30bae7;
 }
-/* line 259, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 #team .team-wrap .team-text h3 {
   text-transform: uppercase;
 }
-/* line 263, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 #team .team-wrap .team-text span {
   margin-top: 40px;
   color: #bdd1df;
   padding-right: 10px;
 }
-/* line 274, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 #team .team-wrap .team-pic {
   background-color: green;
   height: 200px;
@@ -319,14 +324,14 @@ header .header-text a {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-/* line 282, ../scss/style.scss */
+/* line 289, ../scss/style.scss */
 #team .team-wrap .team-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Portfolio Section ****/
-/* line 291, ../scss/style.scss */
+/* line 298, ../scss/style.scss */
 #portfolio {
   color: #3c4761;
   background-color: #ffdd99;
@@ -349,26 +354,26 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 300, ../scss/style.scss */
+/* line 307, ../scss/style.scss */
 #portfolio .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 303, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 #portfolio .title h1 {
   margin-bottom: 50px;
 }
-/* line 306, ../scss/style.scss */
+/* line 313, ../scss/style.scss */
 #portfolio .title ul.select {
   list-style: none;
   margin-top: 50px;
 }
-/* line 310, ../scss/style.scss */
+/* line 317, ../scss/style.scss */
 #portfolio .title ul.select li {
   display: inline;
   padding-right: 14px;
 }
-/* line 313, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 #portfolio .title ul.select li a {
   background-color: #ebc985;
   padding: 14px 30px;
@@ -378,31 +383,102 @@ header .header-text a {
   text-decoration: none;
   color: #3c4761;
 }
-/* line 322, ../scss/style.scss */
+/* line 329, ../scss/style.scss */
 #portfolio .title ul.select li a:hover {
   background-color: #ffffff;
 }
-/* line 330, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 #portfolio .portfolio-wrap {
   margin-bottom: 75px;
 }
-/* line 333, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-text {
   text-align: center;
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 342, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-pic img {
   width: 100%;
 }
 
+/**** Get In Touch Section ****/
+/* line 359, ../scss/style.scss */
+#get-in-touch {
+  color: #ffffff;
+  background-color: #3c5499;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  /* OLD… */
+  -ms-flex-align: center;
+  /* You know the drill now… */
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 368, ../scss/style.scss */
+#get-in-touch .title {
+  text-align: center;
+  margin-bottom: 86px;
+}
+/* line 371, ../scss/style.scss */
+#get-in-touch .title h1 {
+  margin-bottom: 50px;
+}
+/* line 375, ../scss/style.scss */
+#get-in-touch .input-group {
+  width: 100%;
+}
+/* line 380, ../scss/style.scss */
+#get-in-touch input,
+#get-in-touch textarea {
+  background-color: #273a71;
+  border: none;
+}
+/* line 386, ../scss/style.scss */
+#get-in-touch textarea {
+  height: 150px;
+  color: #ffffff;
+}
+/* line 391, ../scss/style.scss */
+#get-in-touch .cta {
+  text-align: center;
+  margin-top: 70px;
+}
+/* line 394, ../scss/style.scss */
+#get-in-touch .cta a {
+  color: #ffffff;
+  background-color: #30bae7;
+  padding: 25px 80px;
+}
+/* line 402, ../scss/style.scss */
+#get-in-touch #email {
+  width: 48%;
+  float: right;
+  margin-bottom: 10px;
+}
+/* line 408, ../scss/style.scss */
+#get-in-touch #name {
+  width: 48%;
+  float: left;
+}
+
 /**** Social Media ****/
-/* line 353, ../scss/style.scss */
+/* line 423, ../scss/style.scss */
 #social-media {
   background-color: #344b8e;
 }
-/* line 356, ../scss/style.scss */
+/* line 426, ../scss/style.scss */
 #social-media .get-wrapper {
   min-height: 110px;
   display: -webkit-box;
@@ -424,13 +500,13 @@ header .header-text a {
   align-items: center;
   flex-flow: row wrap;
 }
-/* line 363, ../scss/style.scss */
+/* line 433, ../scss/style.scss */
 #social-media .get-wrapper a {
   color: white;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 368, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 #social-media .get-wrapper a:hover {
   color: #30bae7;
 }
