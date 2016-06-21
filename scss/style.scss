@@ -230,7 +230,8 @@ header {
 /**** Team Say ****/
 #team{
 	color:$body-font-color2;
-	min-height:910px;
+	background-color:$team-color;
+	min-height:930px;
 	
 	@include flexbox();
 	@include flex-justify(center);
@@ -246,20 +247,26 @@ header {
 
 
 	.team-wrap {
-		margin-bottom:150px;
+	
 
 		.team-text {
 			text-align:center;
+			padding:0 25px;
 
 			#place {
 				color:$accent-color2;
 			}
-
 			h3 {
 
 				text-transform:uppercase;
 			}
-		
+			span {
+				margin-top:40px;
+				color:$social-color;
+				padding-right:10px;
+				
+			}
+
 		}
 
 		

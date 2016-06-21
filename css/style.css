@@ -262,7 +262,8 @@ header .header-text a {
 /* line 231, ../scss/style.scss */
 #team {
   color: #3c4761;
-  min-height: 910px;
+  background-color: #e7f1f8;
+  min-height: 930px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -281,32 +282,35 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 239, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 #team .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 242, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 #team .title h1 {
   margin-bottom: 50px;
 }
-/* line 248, ../scss/style.scss */
-#team .team-wrap {
-  margin-bottom: 150px;
-}
-/* line 251, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 #team .team-wrap .team-text {
   text-align: center;
+  padding: 0 25px;
 }
-/* line 254, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 #team .team-wrap .team-text #place {
   color: #30bae7;
 }
-/* line 258, ../scss/style.scss */
+/* line 259, ../scss/style.scss */
 #team .team-wrap .team-text h3 {
   text-transform: uppercase;
 }
-/* line 267, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
+#team .team-wrap .team-text span {
+  margin-top: 40px;
+  color: #bdd1df;
+  padding-right: 10px;
+}
+/* line 274, ../scss/style.scss */
 #team .team-wrap .team-pic {
   background-color: green;
   height: 200px;
@@ -315,14 +319,14 @@ header .header-text a {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-/* line 275, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 #team .team-wrap .team-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Portfolio Section ****/
-/* line 284, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 #portfolio {
   color: #3c4761;
   background-color: #ffdd99;
@@ -345,26 +349,26 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 293, ../scss/style.scss */
+/* line 300, ../scss/style.scss */
 #portfolio .title {
   text-align: center;
   margin-bottom: 86px;
 }
-/* line 296, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 #portfolio .title h1 {
   margin-bottom: 50px;
 }
-/* line 299, ../scss/style.scss */
+/* line 306, ../scss/style.scss */
 #portfolio .title ul.select {
   list-style: none;
   margin-top: 50px;
 }
-/* line 303, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 #portfolio .title ul.select li {
   display: inline;
   padding-right: 14px;
 }
-/* line 306, ../scss/style.scss */
+/* line 313, ../scss/style.scss */
 #portfolio .title ul.select li a {
   background-color: #ebc985;
   padding: 14px 30px;
@@ -374,31 +378,31 @@ header .header-text a {
   text-decoration: none;
   color: #3c4761;
 }
-/* line 315, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 #portfolio .title ul.select li a:hover {
   background-color: #ffffff;
 }
-/* line 323, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 #portfolio .portfolio-wrap {
   margin-bottom: 75px;
 }
-/* line 326, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-text {
   text-align: center;
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 335, ../scss/style.scss */
+/* line 342, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-pic img {
   width: 100%;
 }
 
 /**** Social Media ****/
-/* line 346, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 #social-media {
   background-color: #344b8e;
 }
-/* line 349, ../scss/style.scss */
+/* line 356, ../scss/style.scss */
 #social-media .get-wrapper {
   min-height: 110px;
   display: -webkit-box;
@@ -420,13 +424,13 @@ header .header-text a {
   align-items: center;
   flex-flow: row wrap;
 }
-/* line 356, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 #social-media .get-wrapper a {
   color: white;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 361, ../scss/style.scss */
+/* line 368, ../scss/style.scss */
 #social-media .get-wrapper a:hover {
   color: #30bae7;
 }
