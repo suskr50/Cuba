@@ -81,12 +81,29 @@ header .navbar-default .navbar-nav li.active a {
 header .header-text {
   text-align: center;
   min-height: 500px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  /* OLD… */
+  -ms-flex-align: center;
+  /* You know the drill now… */
+  -webkit-align-items: center;
+  align-items: center;
 }
-/* line 82, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 header .header-text h1 {
   margin-bottom: 70px;
 }
-/* line 86, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 header .header-text a {
   color: #ffffff;
   font-color: 18px;
@@ -99,7 +116,7 @@ header .header-text a {
 }
 
 /**** Service Section ****/
-/* line 102, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 #service {
   background-color: #17c2a4;
   min-height: 750px;
@@ -121,24 +138,24 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 110, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 #service .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 113, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 #service .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 118, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 #service .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** Skills ****/
-/* line 131, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 #skills {
   color: #3c4761;
   min-height: 750px;
@@ -160,24 +177,24 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 139, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
 #skills .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 142, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 #skills .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 147, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 #skills .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** People Say ****/
-/* line 159, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #people-say {
   background-color: #d74680;
   min-height: 900px;
@@ -199,36 +216,36 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 167, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 #people-say .people-wrap {
   margin-bottom: 150px;
 }
-/* line 171, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 #people-say .people-wrap .people-text {
   padding-left: 15px;
   text-align: left;
   width: 70%;
   float: left;
 }
-/* line 177, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 #people-say .people-wrap .people-text p {
   font-weight: 400;
   font-style: italic;
 }
-/* line 181, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
 #people-say .people-wrap .people-text h3 {
   text-transform: uppercase;
 }
-/* line 185, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 #people-say .people-wrap .people-text h4 {
   color: #ffdd99;
 }
-/* line 190, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 #people-say .people-wrap .people-text:nth-child(1),
 #people-say .people-wrap .people-text:nth-child(2) {
   margin-bottom: 50px;
 }
-/* line 195, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 #people-say .people-wrap .people-pic {
   background-color: green;
   height: 75px;
@@ -237,14 +254,14 @@ header .header-text a {
   margin-bottom: 65px;
   float: left;
 }
-/* line 205, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 #people-say .people-wrap .people-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Team Say ****/
-/* line 214, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 #team {
   color: #3c4761;
   background-color: #e7f1f8;
@@ -267,30 +284,30 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 224, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 #team .team-wrap {
   margin-bottom: 50px;
 }
-/* line 228, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 #team .team-wrap .team-text {
   text-align: center;
   padding: 0 25px;
 }
-/* line 232, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 #team .team-wrap .team-text #place {
   color: #30bae7;
 }
-/* line 235, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 #team .team-wrap .team-text h3 {
   text-transform: uppercase;
 }
-/* line 239, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 #team .team-wrap .team-text span {
   margin-top: 40px;
   color: #bdd1df;
   padding-right: 10px;
 }
-/* line 250, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 #team .team-wrap .team-pic {
   background-color: green;
   height: 200px;
@@ -299,14 +316,14 @@ header .header-text a {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-/* line 259, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 #team .team-wrap .team-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Portfolio Section ****/
-/* line 268, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 #portfolio {
   color: #3c4761;
   background-color: #ffdd99;
@@ -329,22 +346,22 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 278, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 #portfolio .select {
   margin-bottom: 50px;
 }
-/* line 281, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 #portfolio .select ul {
   list-style: none;
   width: 90%;
   margin: 0 auto 70px auto;
 }
-/* line 286, ../scss/style.scss */
+/* line 290, ../scss/style.scss */
 #portfolio .select ul li {
   display: inline;
   padding: 0 10px;
 }
-/* line 289, ../scss/style.scss */
+/* line 293, ../scss/style.scss */
 #portfolio .select ul li a {
   background-color: #ebc985;
   padding: 14px 30px;
@@ -354,27 +371,27 @@ header .header-text a {
   text-decoration: none;
   color: #3c4761;
 }
-/* line 298, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 #portfolio .select ul li a:hover {
   background-color: #ffffff;
 }
-/* line 307, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 #portfolio .portfolio-wrap {
   margin-bottom: 75px;
 }
-/* line 310, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-text {
   text-align: center;
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 319, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-pic img {
   width: 100%;
 }
 
 /**** Get In Touch Section ****/
-/* line 329, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 #get-in-touch {
   color: #ffffff;
   background-color: #3c5499;
@@ -397,33 +414,33 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 339, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 #get-in-touch .input-group {
   width: 100%;
 }
-/* line 344, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 #get-in-touch input,
 #get-in-touch textarea {
   background-color: #273a71;
   border: none;
 }
-/* line 350, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 #get-in-touch textarea {
   height: 150px;
   color: #ffffff;
 }
-/* line 355, ../scss/style.scss */
+/* line 359, ../scss/style.scss */
 #get-in-touch .cta {
   text-align: center;
   margin-top: 70px;
 }
-/* line 358, ../scss/style.scss */
+/* line 362, ../scss/style.scss */
 #get-in-touch .cta a {
   color: #ffffff;
   background-color: #30bae7;
   padding: 25px 80px;
 }
-/* line 366, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 #get-in-touch #name,
 #get-in-touch #email {
   width: 100%;
@@ -434,11 +451,11 @@ header .header-text a {
 }
 
 /**** Social Media ****/
-/* line 384, ../scss/style.scss */
+/* line 388, ../scss/style.scss */
 #social-media {
   background-color: #344b8e;
 }
-/* line 387, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 #social-media .get-wrapper {
   min-height: 110px;
   display: -webkit-box;
@@ -460,13 +477,13 @@ header .header-text a {
   align-items: center;
   flex-flow: row wrap;
 }
-/* line 394, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 #social-media .get-wrapper a {
   color: white;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 399, ../scss/style.scss */
+/* line 403, ../scss/style.scss */
 #social-media .get-wrapper a:hover {
   color: #30bae7;
 }
@@ -475,54 +492,59 @@ header .header-text a {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 7, ../scss/_mobile.scss */
-  header {
-    background-color: #87509c;
-  }
-  /* line 10, ../scss/_mobile.scss */
+  /* line 9, ../scss/_mobile.scss */
   header .navbar-default {
-    margin-bottom: 75px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+  }
+  /* line 13, ../scss/_mobile.scss */
+  header .navbar-default ul {
+    margin-top: -10px;
+  }
+  /* line 18, ../scss/_mobile.scss */
+  header .header-text {
+    min-height: 400px;
   }
 
-  /* line 14, ../scss/_mobile.scss */
+  /* line 23, ../scss/_mobile.scss */
   #service {
     padding-top: 50px;
   }
-  /* line 16, ../scss/_mobile.scss */
+  /* line 25, ../scss/_mobile.scss */
   #service .service-wrap {
     margin-bottom: 50px;
   }
 
-  /* line 23, ../scss/_mobile.scss */
+  /* line 32, ../scss/_mobile.scss */
   #team .team-wrap {
     margin-bottom: 50px;
   }
 
-  /* line 28, ../scss/_mobile.scss */
+  /* line 37, ../scss/_mobile.scss */
   #skills {
     margin-top: 50px;
   }
-  /* line 30, ../scss/_mobile.scss */
+  /* line 39, ../scss/_mobile.scss */
   #skills .service-wrap {
     margin-bottom: 70px;
   }
 
-  /* line 36, ../scss/_mobile.scss */
+  /* line 45, ../scss/_mobile.scss */
   #portfolio {
     min-height: 1100px;
   }
-  /* line 39, ../scss/_mobile.scss */
+  /* line 48, ../scss/_mobile.scss */
   #portfolio #select-br {
     display: none;
   }
 
-  /* line 46, ../scss/_mobile.scss */
+  /* line 55, ../scss/_mobile.scss */
   #people-say .people-wrap {
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  /* line 51, ../scss/_mobile.scss */
+  /* line 60, ../scss/_mobile.scss */
   #people-say .people-wrap .people-pic {
     float: left;
     width: 100px;
@@ -531,59 +553,73 @@ header .header-text a {
     margin-right: 30px;
     margin-bottom: 100px;
   }
-  /* line 61, ../scss/_mobile.scss */
+  /* line 70, ../scss/_mobile.scss */
   #people-say .people-wrap .people-text {
     float: none;
     width: 100%;
   }
-  /* line 65, ../scss/_mobile.scss */
+  /* line 74, ../scss/_mobile.scss */
   #people-say .people-wrap .people-text:nth-child(1),
   #people-say .people-wrap .people-text:nth-child(2) {
     margin-bottom: 100px;
   }
 
-  /* line 72, ../scss/_mobile.scss */
+  /* line 81, ../scss/_mobile.scss */
   #get-in-touch {
     min-height: 800px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 922px) {
-  /* line 84, ../scss/_mobile.scss */
+  /* line 93, ../scss/_mobile.scss */
+  header .navbar-default {
+    margin-top: -50px;
+    margin-bottom: 0px;
+  }
+  /* line 97, ../scss/_mobile.scss */
+  header .navbar-default ul {
+    margin-top: -10px;
+  }
+  /* line 102, ../scss/_mobile.scss */
+  header .header-text {
+    min-height: 400px;
+  }
+
+  /* line 110, ../scss/_mobile.scss */
   #service .service-wrap h3 {
     margin-bottom: 50px;
     text-transform: uppercase;
   }
-  /* line 88, ../scss/_mobile.scss */
+  /* line 114, ../scss/_mobile.scss */
   #service .service-wrap #rocket {
     margin-bottom: 25px;
   }
 
-  /* line 95, ../scss/_mobile.scss */
+  /* line 121, ../scss/_mobile.scss */
   #team h3 {
     margin-bottom: 50px;
   }
-  /* line 98, ../scss/_mobile.scss */
+  /* line 124, ../scss/_mobile.scss */
   #team #ashley {
     margin-bottom: 25px;
   }
-  /* line 102, ../scss/_mobile.scss */
+  /* line 128, ../scss/_mobile.scss */
   #team .team-text #desc {
     min-height: 160px;
   }
 
-  /* line 108, ../scss/_mobile.scss */
+  /* line 134, ../scss/_mobile.scss */
   #portfolio {
     min-height: 1300px;
   }
 
-  /* line 113, ../scss/_mobile.scss */
+  /* line 139, ../scss/_mobile.scss */
   #get-in-touch #email {
     width: 48%;
     float: right;
     margin-bottom: 10px;
   }
-  /* line 119, ../scss/_mobile.scss */
+  /* line 145, ../scss/_mobile.scss */
   #get-in-touch #name {
     width: 48%;
     float: left;
@@ -591,28 +627,42 @@ header .header-text a {
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  /* line 132, ../scss/_mobile.scss */
+  /* line 159, ../scss/_mobile.scss */
+  header .navbar-default {
+    margin-top: -50px;
+    margin-bottom: 0px;
+  }
+  /* line 163, ../scss/_mobile.scss */
+  header .navbar-default ul {
+    margin-top: -10px;
+  }
+  /* line 168, ../scss/_mobile.scss */
+  header .header-text {
+    min-height: 400px;
+  }
+
+  /* line 175, ../scss/_mobile.scss */
   #service .service-wrap h3 {
     margin-bottom: 25px;
   }
 
-  /* line 142, ../scss/_mobile.scss */
+  /* line 185, ../scss/_mobile.scss */
   #team h3 {
     margin-bottom: 25px;
   }
 
-  /* line 153, ../scss/_mobile.scss */
+  /* line 196, ../scss/_mobile.scss */
   #portfolio .select ul {
     list-style: none;
     margin: 0 auto;
     width: 70%;
   }
-  /* line 159, ../scss/_mobile.scss */
+  /* line 202, ../scss/_mobile.scss */
   #portfolio .select ul li {
     display: inline;
     padding: 0 10px;
   }
-  /* line 162, ../scss/_mobile.scss */
+  /* line 205, ../scss/_mobile.scss */
   #portfolio .select ul li a {
     background-color: #ebc985;
     padding: 14px 30px;
@@ -622,7 +672,7 @@ header .header-text a {
     text-decoration: none;
     color: #3c4761;
   }
-  /* line 171, ../scss/_mobile.scss */
+  /* line 214, ../scss/_mobile.scss */
   #portfolio .select ul li a:hover {
     background-color: #ffffff;
   }

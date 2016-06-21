@@ -79,6 +79,10 @@ header {
 	.header-text {
 		text-align:center;
 		min-height:500px;
+		@include flexbox();
+		@include flex-justify(center);
+		@include flex-align(center);
+		
 		h1 {
 			margin-bottom:70px;
 		}
