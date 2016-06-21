@@ -49,7 +49,7 @@ header {
 
 	.navbar-default {
 		margin-top:-50px;
-		margin-bottom:140px;
+		margin-bottom:40px;
 		padding-top:60px;
 		border:none;
 		background-color:$welcome-color;
@@ -78,7 +78,7 @@ header {
 	}
 	.header-text {
 		text-align:center;
-		min-height:400px;
+		min-height:500px;
 		h1 {
 			margin-bottom:70px;
 		}
@@ -199,6 +199,7 @@ header {
 			border-radius:50px;			;
 			margin-bottom:65px;
 			float:left;
+
 			
 
 			img {
@@ -221,6 +222,7 @@ header {
 
 
 	.team-wrap {
+		margin-bottom:50px;
 	
 
 		.team-text {
@@ -252,6 +254,7 @@ header {
 			border-radius:100px;	
 			margin:0 auto;
 			margin-bottom:40px;
+
 			
 			img {
 				width:100%;
