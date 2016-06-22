@@ -532,33 +532,33 @@ header .header-text a {
     margin-bottom: 50px;
   }
 
-  /* line 30, ../scss/_mobile.scss */
-  #team {
-    background-color: yellow;
-  }
-  /* line 33, ../scss/_mobile.scss */
+  /* line 32, ../scss/_mobile.scss */
   #team .team-wrap {
     margin-bottom: 50px;
   }
 
-  /* line 38, ../scss/_mobile.scss */
+  /* line 37, ../scss/_mobile.scss */
   #skills {
     margin-top: 50px;
   }
-  /* line 40, ../scss/_mobile.scss */
+  /* line 39, ../scss/_mobile.scss */
   #skills .service-wrap {
     margin-bottom: 70px;
   }
 
-  /* line 46, ../scss/_mobile.scss */
+  /* line 45, ../scss/_mobile.scss */
   #portfolio {
     min-height: 1100px;
   }
-  /* line 49, ../scss/_mobile.scss */
+  /* line 48, ../scss/_mobile.scss */
   #portfolio #select-br {
     display: none;
   }
 
+  /* line 53, ../scss/_mobile.scss */
+  #people-say {
+    padding: 0 20px;
+  }
   /* line 56, ../scss/_mobile.scss */
   #people-say .people-wrap {
     text-align: center;
