@@ -54,9 +54,10 @@ hr {
 /**** Sample Statement ****/
 
 #sample {
-	padding:30px 0;
+
+	
 	color:$sks-color;
-	min-height:100px;
+	min-height:155px;
 	text-align:center;
 	margin-bottom:30px;
 	span {
@@ -321,9 +322,9 @@ header {
 				padding:0 5px;
 				a {
 					background-color:$portfolio-select-color;
-					padding:14px 30px;
+					padding:7px 14px;
 					border-radius:6px;
-					
+					font-size:14px;
 					text-transform:uppercase;
 					
 					color:$body-font-color2;
