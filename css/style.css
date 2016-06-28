@@ -61,7 +61,7 @@ hr {
 /**** Sample Statement ****/
 /* line 56, ../scss/style.scss */
 #sample {
-  margin-top: 30px;
+  padding: 30px 0;
   color: #45AC9D;
   min-height: 100px;
   text-align: center;
@@ -112,7 +112,7 @@ header .navbar-default .navbar-nav li.active a {
 /* line 104, ../scss/style.scss */
 header .header-text {
   text-align: center;
-  min-height: 400px;
+  min-height: 500px;
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
@@ -138,7 +138,7 @@ header .header-text h1 {
 /* line 115, ../scss/style.scss */
 header .header-text a {
   color: #ffffff;
-  padding: 15px 90px;
+  padding: 15px 70px;
   border-radius: 6px;
   background-color: #eb7d4b;
   text-align: center;
@@ -146,7 +146,7 @@ header .header-text a {
 }
 
 /**** Service Section ****/
-/* line 131, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 #service {
   background-color: #17c2a4;
   min-height: 1550px;
@@ -168,24 +168,24 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 140, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 #service .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 143, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 #service .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 148, ../scss/style.scss */
+/* line 147, ../scss/style.scss */
 #service .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** Skills ****/
-/* line 161, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 #skills {
   color: #3c4761;
   min-height: 750px;
@@ -207,24 +207,24 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 169, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 #skills .service-wrap {
   text-align: center;
   padding: 0 30px;
 }
-/* line 172, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 #skills .service-wrap h3 {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-/* line 177, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 #skills .service-wrap .img-wrap {
   height: 125px;
   margin-bottom: 65px;
 }
 
 /**** People Say ****/
-/* line 189, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 #people-say {
   background-color: #d74680;
   min-height: 900px;
@@ -246,36 +246,36 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 197, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 #people-say .people-wrap {
   margin-bottom: 150px;
 }
-/* line 201, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 #people-say .people-wrap .people-text {
   padding-left: 15px;
   text-align: left;
   width: 70%;
   float: left;
 }
-/* line 207, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 #people-say .people-wrap .people-text p {
   font-weight: 400;
   font-style: italic;
 }
-/* line 211, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 #people-say .people-wrap .people-text h3 {
   text-transform: uppercase;
 }
-/* line 215, ../scss/style.scss */
+/* line 214, ../scss/style.scss */
 #people-say .people-wrap .people-text h4 {
   color: #ffdd99;
 }
-/* line 220, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 #people-say .people-wrap .people-text:nth-child(1),
 #people-say .people-wrap .people-text:nth-child(2) {
   margin-bottom: 50px;
 }
-/* line 225, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 #people-say .people-wrap .people-pic {
   background-color: green;
   height: 75px;
@@ -284,14 +284,14 @@ header .header-text a {
   margin-bottom: 65px;
   float: left;
 }
-/* line 235, ../scss/style.scss */
+/* line 234, ../scss/style.scss */
 #people-say .people-wrap .people-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Team Say ****/
-/* line 244, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 #team {
   color: #3c4761;
   background-color: #e7f1f8;
@@ -314,34 +314,34 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 254, ../scss/style.scss */
+/* line 253, ../scss/style.scss */
 #team .team-wrap {
   margin-bottom: 50px;
 }
-/* line 258, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 #team .team-wrap .team-text {
   text-align: center;
   padding: 0 25px;
 }
-/* line 262, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 #team .team-wrap .team-text #place {
   color: #30bae7;
 }
-/* line 265, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 #team .team-wrap .team-text h3 {
   text-transform: uppercase;
 }
-/* line 269, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 #team .team-wrap .team-text span {
   margin-top: 20px;
   color: #bdd1df;
   padding-right: 10px;
 }
-/* line 275, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 #team .team-wrap .team-text #desc {
   min-height: 50px;
 }
-/* line 283, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 #team .team-wrap .team-pic {
   background-color: green;
   height: 200px;
@@ -350,14 +350,14 @@ header .header-text a {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-/* line 292, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 #team .team-wrap .team-pic img {
   width: 100%;
   height: 100%;
 }
 
 /**** Portfolio Section ****/
-/* line 301, ../scss/style.scss */
+/* line 300, ../scss/style.scss */
 #portfolio {
   color: #3c4761;
   background-color: #ffdd99;
@@ -380,22 +380,22 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 311, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 #portfolio .select {
   margin-bottom: 50px;
 }
-/* line 314, ../scss/style.scss */
+/* line 313, ../scss/style.scss */
 #portfolio .select ul {
   list-style: none;
   width: 100%;
   margin: 0 auto 70px auto;
 }
-/* line 319, ../scss/style.scss */
+/* line 318, ../scss/style.scss */
 #portfolio .select ul li {
   display: inline-block;
   padding: 0 5px;
 }
-/* line 323, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 #portfolio .select ul li a {
   background-color: #ebc985;
   padding: 14px 30px;
@@ -403,27 +403,27 @@ header .header-text a {
   text-transform: uppercase;
   color: #3c4761;
 }
-/* line 332, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 #portfolio .select ul li a:hover {
   background-color: #ffffff;
 }
-/* line 341, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 #portfolio .portfolio-wrap {
   margin-bottom: 75px;
 }
-/* line 344, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-text {
   text-align: center;
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 353, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 #portfolio .portfolio-wrap .portfolio-pic img {
   width: 100%;
 }
 
 /**** Get In Touch Section ****/
-/* line 363, ../scss/style.scss */
+/* line 362, ../scss/style.scss */
 #get-in-touch {
   color: #ffffff;
   background-color: #3c5499;
@@ -446,50 +446,50 @@ header .header-text a {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 373, ../scss/style.scss */
+/* line 372, ../scss/style.scss */
 #get-in-touch .input-group {
   width: 100%;
 }
-/* line 378, ../scss/style.scss */
+/* line 377, ../scss/style.scss */
 #get-in-touch input,
 #get-in-touch textarea {
   background-color: #273a71;
   border: none;
 }
-/* line 384, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 #get-in-touch textarea {
   height: 150px;
   color: #ffffff;
 }
-/* line 389, ../scss/style.scss */
+/* line 388, ../scss/style.scss */
 #get-in-touch .cta {
   text-align: center;
   margin-top: 70px;
 }
-/* line 392, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 #get-in-touch .cta a {
   color: #ffffff;
   background-color: #30bae7;
   padding: 25px 80px;
 }
-/* line 399, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 #get-in-touch .cta #msg-block {
   margin: 50px;
   font-size: 100px;
   display: none;
 }
-/* line 405, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 #get-in-touch .cta #msg-block a {
   padding: 0px;
   background-color: #3c5499;
   color: white;
   text-decoration: underline;
 }
-/* line 410, ../scss/style.scss */
+/* line 409, ../scss/style.scss */
 #get-in-touch .cta #msg-block a:hover {
   color: #643a79;
 }
-/* line 417, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 #get-in-touch #name,
 #get-in-touch #email {
   width: 100%;
@@ -501,11 +501,11 @@ header .header-text a {
 }
 
 /**** Social Media ****/
-/* line 436, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 #social-media {
   background-color: #344b8e;
 }
-/* line 439, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 #social-media .get-wrapper {
   min-height: 110px;
   -ms-box-orient: horizontal;
@@ -527,17 +527,17 @@ header .header-text a {
   align-items: center;
   flex-flow: row wrap;
 }
-/* line 446, ../scss/style.scss */
+/* line 445, ../scss/style.scss */
 #social-media .get-wrapper div {
   padding: 0 10px;
 }
-/* line 450, ../scss/style.scss */
+/* line 449, ../scss/style.scss */
 #social-media .get-wrapper a {
   color: white;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 455, ../scss/style.scss */
+/* line 454, ../scss/style.scss */
 #social-media .get-wrapper a:hover {
   color: #30bae7;
 }
@@ -559,51 +559,55 @@ header .header-text a {
   header .header-text {
     min-height: 400px;
   }
+  /* line 20, ../scss/_mobile.scss */
+  header .header-text a {
+    padding: 15px 90px;
+  }
 
-  /* line 23, ../scss/_mobile.scss */
+  /* line 27, ../scss/_mobile.scss */
   #service {
     min-height: 750px;
     padding-top: 50px;
   }
-  /* line 26, ../scss/_mobile.scss */
+  /* line 30, ../scss/_mobile.scss */
   #service .service-wrap {
     margin-bottom: 50px;
   }
 
-  /* line 33, ../scss/_mobile.scss */
+  /* line 37, ../scss/_mobile.scss */
   #team .team-wrap {
     margin-bottom: 50px;
   }
 
-  /* line 38, ../scss/_mobile.scss */
+  /* line 42, ../scss/_mobile.scss */
   #skills {
     margin-top: 50px;
   }
-  /* line 40, ../scss/_mobile.scss */
+  /* line 44, ../scss/_mobile.scss */
   #skills .service-wrap {
     margin-bottom: 70px;
   }
 
-  /* line 46, ../scss/_mobile.scss */
+  /* line 50, ../scss/_mobile.scss */
   #portfolio {
     min-height: 1100px;
   }
-  /* line 49, ../scss/_mobile.scss */
+  /* line 53, ../scss/_mobile.scss */
   #portfolio #select-br {
     display: none;
   }
 
-  /* line 54, ../scss/_mobile.scss */
+  /* line 58, ../scss/_mobile.scss */
   #people-say {
     padding: 0 20px;
   }
-  /* line 57, ../scss/_mobile.scss */
+  /* line 61, ../scss/_mobile.scss */
   #people-say .people-wrap {
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  /* line 62, ../scss/_mobile.scss */
+  /* line 66, ../scss/_mobile.scss */
   #people-say .people-wrap .people-pic {
     float: left;
     width: 100px;
@@ -612,73 +616,73 @@ header .header-text a {
     margin-right: 30px;
     margin-bottom: 100px;
   }
-  /* line 72, ../scss/_mobile.scss */
+  /* line 76, ../scss/_mobile.scss */
   #people-say .people-wrap .people-text {
     float: none;
     width: 100%;
   }
-  /* line 76, ../scss/_mobile.scss */
+  /* line 80, ../scss/_mobile.scss */
   #people-say .people-wrap .people-text:nth-child(1),
   #people-say .people-wrap .people-text:nth-child(2) {
     margin-bottom: 100px;
   }
 
-  /* line 83, ../scss/_mobile.scss */
+  /* line 87, ../scss/_mobile.scss */
   #get-in-touch {
     min-height: 800px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 922px) {
-  /* line 95, ../scss/_mobile.scss */
+  /* line 99, ../scss/_mobile.scss */
   header .navbar-default {
     margin-top: -50px;
     margin-bottom: 0px;
   }
-  /* line 99, ../scss/_mobile.scss */
+  /* line 103, ../scss/_mobile.scss */
   header .navbar-default ul {
     margin-top: -10px;
   }
-  /* line 104, ../scss/_mobile.scss */
+  /* line 108, ../scss/_mobile.scss */
   header .header-text {
     min-height: 400px;
   }
 
-  /* line 112, ../scss/_mobile.scss */
+  /* line 116, ../scss/_mobile.scss */
   #service .service-wrap h3 {
     margin-bottom: 50px;
     text-transform: uppercase;
   }
-  /* line 116, ../scss/_mobile.scss */
+  /* line 120, ../scss/_mobile.scss */
   #service .service-wrap #rocket {
     margin-bottom: 25px;
   }
 
-  /* line 123, ../scss/_mobile.scss */
+  /* line 127, ../scss/_mobile.scss */
   #team h3 {
     margin-bottom: 50px;
   }
-  /* line 126, ../scss/_mobile.scss */
+  /* line 130, ../scss/_mobile.scss */
   #team #ashley {
     margin-bottom: 25px;
   }
-  /* line 130, ../scss/_mobile.scss */
+  /* line 134, ../scss/_mobile.scss */
   #team .team-text #desc {
     min-height: 160px;
   }
 
-  /* line 136, ../scss/_mobile.scss */
+  /* line 140, ../scss/_mobile.scss */
   #portfolio {
     min-height: 1300px;
   }
 
-  /* line 141, ../scss/_mobile.scss */
+  /* line 145, ../scss/_mobile.scss */
   #get-in-touch #email {
     width: 48%;
     float: right;
     margin-bottom: 10px;
   }
-  /* line 147, ../scss/_mobile.scss */
+  /* line 151, ../scss/_mobile.scss */
   #get-in-touch #name {
     width: 48%;
     float: left;
@@ -686,46 +690,46 @@ header .header-text a {
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  /* line 161, ../scss/_mobile.scss */
+  /* line 165, ../scss/_mobile.scss */
   header .navbar-default {
     margin-top: -50px;
     margin-bottom: 0px;
   }
-  /* line 165, ../scss/_mobile.scss */
+  /* line 169, ../scss/_mobile.scss */
   header .navbar-default ul {
     margin-top: -10px;
   }
-  /* line 170, ../scss/_mobile.scss */
+  /* line 174, ../scss/_mobile.scss */
   header .header-text {
     min-height: 400px;
   }
 
-  /* line 175, ../scss/_mobile.scss */
+  /* line 179, ../scss/_mobile.scss */
   #service {
     min-height: 550px;
   }
-  /* line 179, ../scss/_mobile.scss */
+  /* line 183, ../scss/_mobile.scss */
   #service .service-wrap h3 {
     margin-bottom: 25px;
   }
 
-  /* line 189, ../scss/_mobile.scss */
+  /* line 193, ../scss/_mobile.scss */
   #team h3 {
     margin-bottom: 25px;
   }
 
-  /* line 200, ../scss/_mobile.scss */
+  /* line 204, ../scss/_mobile.scss */
   #portfolio .select ul {
     list-style: none;
     margin: 0 auto;
     width: 70%;
   }
-  /* line 206, ../scss/_mobile.scss */
+  /* line 210, ../scss/_mobile.scss */
   #portfolio .select ul li {
     display: inline;
     padding: 0 10px;
   }
-  /* line 209, ../scss/_mobile.scss */
+  /* line 213, ../scss/_mobile.scss */
   #portfolio .select ul li a {
     background-color: #ebc985;
     padding: 14px 30px;
@@ -733,7 +737,7 @@ header .header-text a {
     text-transform: uppercase;
     color: #3c4761;
   }
-  /* line 216, ../scss/_mobile.scss */
+  /* line 220, ../scss/_mobile.scss */
   #portfolio .select ul li a:hover {
     background-color: #ffffff;
   }

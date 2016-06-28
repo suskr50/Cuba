@@ -54,7 +54,7 @@ hr {
 /**** Sample Statement ****/
 
 #sample {
-	margin-top:30px;
+	padding:30px 0;
 	color:$sks-color;
 	min-height:100px;
 	text-align:center;
@@ -103,7 +103,7 @@ header {
 	}
 	.header-text {
 		text-align:center;
-		min-height:400px;
+		min-height:500px;
 		@include flexbox();
 		@include flex-justify(center);
 		@include flex-align(center);
@@ -114,8 +114,7 @@ header {
 
 		a {
 			color:$body-font-color;
-			
-			padding:15px 90px;
+			padding:15px 70px;
 			border-radius:6px;
 			background-color:$welcome-button-color;
 			text-align:center;
